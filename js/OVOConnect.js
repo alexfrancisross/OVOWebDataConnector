@@ -205,9 +205,7 @@
     myConnector.init = function(initCallback) {
 
         tableau.authType = tableau.authTypeEnum.custom;
-
-        //tableau.password = 'Noah2008';
-        //tableau.username = 'achwell2k@hotmail.com';
+        
         initCallback();
     }
 })();
